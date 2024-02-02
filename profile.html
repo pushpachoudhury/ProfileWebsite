@@ -3,26 +3,23 @@
         <title>
             Profile
         </title>
+        <link rel="stylesheet" href="phoneStyle.css">
+        <link rel="stylesheet" href="computerStyle.css">
+        <link rel="stylesheet" href="printStyle.css">
         <style type="text/css"> p.space {line-height:100%;} </style>
+        <style>
+            body{
+                font-family: serif;
+                background-color: #E0E0E0; 
+                padding: 10px;
+            } 
+        </style>
     </head>
+   
     <body>
-        <nav>
-            <ul>
-                <ii> Menu</ii>
-                <li><a href="#basicInfo">Basic Info</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#workExperience">Work Experience</a></li>
-                <li><a href="#programmingSkills">Programming Skills</a></li>
-                <li><a href="#generalInterests">General Interests</a></li>
-                <li><a href="#favoriteMedia">Favorite Media</a></li>
-                <li><a href="#favoriteWebsites">Favorite Websites</a></li>
-                <li><a href="#myProjects">My Projects</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>
-        <img src="react_pfp.png" width="200" height="200"/>
-
-<div id="basicInfo">
+<section>
+<div style="padding: 10px; text-align: center; color: #0066cc;" id="basicInfo">
+    <img src="ProfilePic.jpg" width="200" height="200" id="ProfilePic"/>
     <h1> Pushpa Choudhury </h1>
     <h2>Computer Science </h2>
 </div>
@@ -36,7 +33,7 @@
 </div>
 
 <div id="workExperience">
-      <h3>Work Experience/Internship</h3> 
+      <h3>Work Experience/Internships</h3> 
     <ul>
         <li>NY I-Corps Hub x Innovation Hot Spot Lean Bootcamp</li>
         <li>Personal Portfolio Website</li>
@@ -48,7 +45,7 @@
 
 <div id="programmingSkills">
     <h3>Programming Skills</h3>
-    <table border=".5">
+    <table border=".2">
         <tr>
             <th>Language</th>
             <th>Level</th>
@@ -71,7 +68,6 @@
         </tr>
     </table>
 </div>
-
 
 </div>
 <div id="generalInterests">
@@ -131,7 +127,7 @@
 <div id="myProjects">
     <h3> My Projects in This Course</h3>
     <ul>
-        <li><span id="bolded" style="font-weight: bold;"><a href="file:///Users/pushpa/profile.html" target="_blank">Implement a Profile Page: Milestone 1</a></span>
+        <li><span id="bolded" style="font-weight: bold;"><a href="https://pushpachoudhury.github.io/ProfileWebsite/" target="_blank">Implement a Profile Page: Milestone 1</a></span>
         <p>
 
 Project 1's Milestone one delivered a concise and well-structured HTML profile page, including sections like Basic Profile Information, 
@@ -139,6 +135,23 @@ Education, Work Experience, Programming Skills, and General Interests. The page,
  a user-friendly menu for easy navigation. Hosted on GitHub Pages, it meets project requirements, providing a solid foundation for future stages.
         </p></li>
     </ul>
+</div>
+
+<div>
+    <nav id="Menu">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="#basicInfo">Basic Info</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#workExperience">Work Experience</a></li>
+            <li><a href="#programmingSkills">Programming Skills</a></li>
+            <li><a href="#generalInterests">General Interests</a></li>
+            <li><a href="#favoriteMedia">Favorite Media</a></li>
+            <li><a href="#favoriteWebsites">Favorite Websites</a></li>
+            <li><a href="#myProjects">My Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
 </div>
 
 <div id="contact">
@@ -152,11 +165,10 @@ Education, Work Experience, Programming Skills, and General Interests. The page,
 
         <label for="message">Message:</label>
         <input type="message" id="message" name="message"><br>
-
         <input type="submit" value="Submit">
     </form>
   
 </div>
-
+</section>
     </body>
 </html>

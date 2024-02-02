@@ -1,0 +1,38 @@
+@media print {
+   
+    section{
+        border: 0px;
+    }
+    body {
+        font-size: medium;
+    }
+    nav {
+        display: none;
+    }
+
+    #favoriteMedia video {
+        display: none;
+    }
+
+    p {
+        font-size: large;
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0;
+        background-color: #d0d0d0;
+    }
+
+    div{
+        background-color:#E0E0E0 ;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #contact {
+        display: none;
+    }
+}
