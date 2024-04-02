@@ -10,16 +10,15 @@
 
     h1{
         margin-bottom: 0px;
-        font-size:xx-large;
-        font-family:Arial, Helvetica, sans-serif;
         color: black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
     }
     
     h2{
         margin-top: 0px;
-        font-size: larger;
-        font-family:Arial, Helvetica, sans-serif;
         color: black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     h3{
@@ -28,16 +27,15 @@
         color: black;
         margin-top: auto;
         margin:0;
-        font-size: large;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     p{
        margin-top: 0;
        padding: 5px;
        font-size: medium;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-
     div{
         background-color: #d0d0d0;
         margin-top:15px ;
@@ -52,6 +50,7 @@
 
     li{
         font-size: medium;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     table{
